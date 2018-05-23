@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -481,37 +481,37 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="LED2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="" package3d_urn="urn:adsk.eagle:package:13319/1"/>
 <part name="LED3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="" package3d_urn="urn:adsk.eagle:package:13319/1"/>
 <part name="LED4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="" package3d_urn="urn:adsk.eagle:package:13319/1"/>
-<part name="J2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-100" device=""/>
-<part name="J3" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-100" device=""/>
-<part name="J1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-100" device=""/>
-<part name="J4" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J5" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J6" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J7" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J8" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J9" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J10" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J11" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J12" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J13" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J14" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J15" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J16" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J17" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J18" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J19" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J20" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J21" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J22" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J23" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J24" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J25" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J26" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J27" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J28" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J29" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J30" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="J31" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="NS1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-100" device=""/>
+<part name="MB1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-100" device=""/>
+<part name="TRANS_POWER" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-100" device=""/>
+<part name="PI1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="FAN1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL1.1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL1.2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="OLED1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="S1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="PI2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="FAN2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL2.1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL2.2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="OLED2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="S2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="PI3" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="FAN3" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL3.1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL3.2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="OLED3" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="S3" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="PI4" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="FAN4" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL4.1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="SDA/SCL4.2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="OLED4" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="S4" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="LEDS1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="LEDS2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="LEDS3" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
+<part name="LEDS4" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -556,52 +556,52 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <instance part="LED2" gate="G$1" x="71.12" y="71.12" rot="R270"/>
 <instance part="LED3" gate="G$1" x="101.6" y="71.12" rot="R270"/>
 <instance part="LED4" gate="G$1" x="127" y="71.12" rot="R270"/>
-<instance part="J2" gate="G$1" x="142.24" y="68.58"/>
-<instance part="J3" gate="G$1" x="137.16" y="5.08"/>
-<instance part="J1" gate="G$1" x="-12.7" y="22.86" rot="R90"/>
-<instance part="J4" gate="G$1" x="22.86" y="33.02" rot="R180"/>
-<instance part="J5" gate="G$1" x="33.02" y="33.02" rot="R180"/>
-<instance part="J6" gate="G$1" x="20.32" y="25.4"/>
-<instance part="J7" gate="G$1" x="22.86" y="15.24" rot="R180"/>
-<instance part="J8" gate="G$1" x="20.32" y="7.62"/>
-<instance part="J9" gate="G$1" x="30.48" y="7.62"/>
-<instance part="J10" gate="G$1" x="58.42" y="35.56" rot="R180"/>
-<instance part="J11" gate="G$1" x="66.04" y="33.02" rot="R180"/>
-<instance part="J12" gate="G$1" x="55.88" y="25.4"/>
-<instance part="J13" gate="G$1" x="58.42" y="15.24" rot="R180"/>
-<instance part="J14" gate="G$1" x="55.88" y="7.62"/>
-<instance part="J15" gate="G$1" x="66.04" y="7.62"/>
-<instance part="J16" gate="G$1" x="88.9" y="30.48" rot="R180"/>
-<instance part="J17" gate="G$1" x="101.6" y="30.48" rot="R180"/>
-<instance part="J18" gate="G$1" x="88.9" y="22.86"/>
-<instance part="J19" gate="G$1" x="91.44" y="12.7" rot="R180"/>
-<instance part="J20" gate="G$1" x="88.9" y="5.08"/>
-<instance part="J21" gate="G$1" x="96.52" y="2.54"/>
-<instance part="J22" gate="G$1" x="111.76" y="30.48" rot="R180"/>
-<instance part="J23" gate="G$1" x="119.38" y="30.48" rot="R180"/>
-<instance part="J24" gate="G$1" x="109.22" y="22.86"/>
-<instance part="J25" gate="G$1" x="111.76" y="12.7" rot="R180"/>
-<instance part="J26" gate="G$1" x="109.22" y="5.08"/>
-<instance part="J27" gate="G$1" x="121.92" y="5.08"/>
-<instance part="J28" gate="G$1" x="40.64" y="35.56" rot="R180"/>
-<instance part="J29" gate="G$1" x="76.2" y="25.4" rot="R180"/>
-<instance part="J30" gate="G$1" x="101.6" y="20.32" rot="R180"/>
-<instance part="J31" gate="G$1" x="127" y="22.86" rot="R180"/>
+<instance part="NS1" gate="G$1" x="142.24" y="68.58"/>
+<instance part="MB1" gate="G$1" x="137.16" y="5.08"/>
+<instance part="TRANS_POWER" gate="G$1" x="-12.7" y="22.86" rot="R90"/>
+<instance part="PI1" gate="G$1" x="22.86" y="33.02" rot="R180"/>
+<instance part="FAN1" gate="G$1" x="33.02" y="33.02" rot="R180"/>
+<instance part="SDA/SCL1.1" gate="G$1" x="20.32" y="25.4"/>
+<instance part="SDA/SCL1.2" gate="G$1" x="22.86" y="15.24" rot="R180"/>
+<instance part="OLED1" gate="G$1" x="20.32" y="7.62"/>
+<instance part="S1" gate="G$1" x="30.48" y="7.62"/>
+<instance part="PI2" gate="G$1" x="58.42" y="35.56" rot="R180"/>
+<instance part="FAN2" gate="G$1" x="66.04" y="33.02" rot="R180"/>
+<instance part="SDA/SCL2.1" gate="G$1" x="55.88" y="25.4"/>
+<instance part="SDA/SCL2.2" gate="G$1" x="58.42" y="15.24" rot="R180"/>
+<instance part="OLED2" gate="G$1" x="55.88" y="7.62"/>
+<instance part="S2" gate="G$1" x="66.04" y="7.62"/>
+<instance part="PI3" gate="G$1" x="88.9" y="30.48" rot="R180"/>
+<instance part="FAN3" gate="G$1" x="101.6" y="30.48" rot="R180"/>
+<instance part="SDA/SCL3.1" gate="G$1" x="88.9" y="22.86"/>
+<instance part="SDA/SCL3.2" gate="G$1" x="91.44" y="12.7" rot="R180"/>
+<instance part="OLED3" gate="G$1" x="88.9" y="5.08"/>
+<instance part="S3" gate="G$1" x="96.52" y="2.54"/>
+<instance part="PI4" gate="G$1" x="111.76" y="30.48" rot="R180"/>
+<instance part="FAN4" gate="G$1" x="119.38" y="30.48" rot="R180"/>
+<instance part="SDA/SCL4.1" gate="G$1" x="109.22" y="22.86"/>
+<instance part="SDA/SCL4.2" gate="G$1" x="111.76" y="12.7" rot="R180"/>
+<instance part="OLED4" gate="G$1" x="109.22" y="5.08"/>
+<instance part="S4" gate="G$1" x="121.92" y="5.08"/>
+<instance part="LEDS1" gate="G$1" x="40.64" y="35.56" rot="R180"/>
+<instance part="LEDS2" gate="G$1" x="76.2" y="25.4" rot="R180"/>
+<instance part="LEDS3" gate="G$1" x="101.6" y="20.32" rot="R180"/>
+<instance part="LEDS4" gate="G$1" x="127" y="22.86" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="12V" class="0">
 <segment>
 <wire x1="-7.62" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="TRANS_POWER" gate="G$1" pin="4"/>
 <wire x1="-10.16" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="27.94" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="NS1" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="60.96" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="5V" class="0">
 <segment>
 <wire x1="-2.54" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
@@ -629,20 +629,20 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="109.22" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <junction x="109.22" y="38.1"/>
 <wire x1="116.84" y1="38.1" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="TRANS_POWER" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="22.86" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="22.86" x2="-2.54" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="2"/>
-<pinref part="J5" gate="G$1" pin="2"/>
-<pinref part="J10" gate="G$1" pin="2"/>
-<pinref part="J11" gate="G$1" pin="2"/>
-<pinref part="J16" gate="G$1" pin="2"/>
-<pinref part="J17" gate="G$1" pin="2"/>
-<pinref part="J22" gate="G$1" pin="2"/>
-<pinref part="J23" gate="G$1" pin="2"/>
+<pinref part="PI1" gate="G$1" pin="2"/>
+<pinref part="FAN1" gate="G$1" pin="2"/>
+<pinref part="PI2" gate="G$1" pin="2"/>
+<pinref part="FAN2" gate="G$1" pin="2"/>
+<pinref part="PI3" gate="G$1" pin="2"/>
+<pinref part="FAN3" gate="G$1" pin="2"/>
+<pinref part="PI4" gate="G$1" pin="2"/>
+<pinref part="FAN4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="GND" class="0">
 <segment>
 <wire x1="10.16" y1="-5.08" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-5.08" x2="33.02" y2="-5.08" width="0.1524" layer="91"/>
@@ -698,33 +698,35 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="99.06" y1="-5.08" x2="99.06" y2="0" width="0.1524" layer="91"/>
 <junction x="99.06" y="-5.08"/>
 <wire x1="124.46" y1="-5.08" x2="124.46" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="TRANS_POWER" gate="G$1" pin="3"/>
 <wire x1="-10.16" y1="25.4" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="25.4" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
-<pinref part="J5" gate="G$1" pin="1"/>
-<pinref part="J8" gate="G$1" pin="2"/>
-<pinref part="J9" gate="G$1" pin="2"/>
-<pinref part="J10" gate="G$1" pin="1"/>
-<pinref part="J11" gate="G$1" pin="1"/>
-<pinref part="J16" gate="G$1" pin="1"/>
-<pinref part="J17" gate="G$1" pin="1"/>
-<pinref part="J20" gate="G$1" pin="2"/>
-<pinref part="J21" gate="G$1" pin="2"/>
-<pinref part="J22" gate="G$1" pin="1"/>
-<pinref part="J23" gate="G$1" pin="1"/>
-<pinref part="J26" gate="G$1" pin="2"/>
-<pinref part="J27" gate="G$1" pin="2"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="PI1" gate="G$1" pin="1"/>
+<pinref part="FAN1" gate="G$1" pin="1"/>
+<pinref part="OLED1" gate="G$1" pin="2"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<pinref part="PI2" gate="G$1" pin="1"/>
+<pinref part="FAN2" gate="G$1" pin="1"/>
+<pinref part="PI3" gate="G$1" pin="1"/>
+<pinref part="FAN3" gate="G$1" pin="1"/>
+<pinref part="OLED3" gate="G$1" pin="2"/>
+<pinref part="S3" gate="G$1" pin="2"/>
+<pinref part="PI4" gate="G$1" pin="1"/>
+<pinref part="FAN4" gate="G$1" pin="1"/>
+<pinref part="OLED4" gate="G$1" pin="2"/>
+<pinref part="S4" gate="G$1" pin="2"/>
+<pinref part="NS1" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="53.34" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-5.08" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="124.46" y="-5.08"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="MB1" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="2.54" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="OLED2" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="3.3V" class="0">
 <segment>
 <wire x1="0" y1="-12.7" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-12.7" x2="55.88" y2="-12.7" width="0.1524" layer="91"/>
@@ -732,78 +734,77 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="88.9" y1="-12.7" x2="109.22" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-12.7" x2="20.32" y2="5.08" width="0.1524" layer="91"/>
 <junction x="20.32" y="-12.7"/>
-<wire x1="55.88" y1="-12.7" x2="55.88" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="55.88" y="-12.7"/>
-<wire x1="55.88" y1="-10.16" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-12.7" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-12.7" x2="88.9" y2="2.54" width="0.1524" layer="91"/>
 <junction x="88.9" y="-12.7"/>
 <wire x1="109.22" y1="-12.7" x2="109.22" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="TRANS_POWER" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="0" y1="20.32" x2="0" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="-10.16" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="J20" gate="G$1" pin="1"/>
-<pinref part="J26" gate="G$1" pin="1"/>
+<pinref part="OLED1" gate="G$1" pin="1"/>
+<pinref part="OLED3" gate="G$1" pin="1"/>
+<pinref part="OLED4" gate="G$1" pin="1"/>
+<pinref part="OLED2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="20.32" y1="22.86" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="1"/>
-<pinref part="J7" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL1.1" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL1.2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <wire x1="22.86" y1="22.86" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="2"/>
-<pinref part="J7" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL1.1" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL1.2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="55.88" y1="22.86" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="J12" gate="G$1" pin="1"/>
-<pinref part="J13" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL2.1" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL2.2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <wire x1="58.42" y1="22.86" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="J12" gate="G$1" pin="2"/>
-<pinref part="J13" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL2.1" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL2.2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="88.9" y1="20.32" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J18" gate="G$1" pin="1"/>
-<pinref part="J19" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL3.1" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL3.2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <wire x1="91.44" y1="20.32" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J18" gate="G$1" pin="2"/>
-<pinref part="J19" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL3.1" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL3.2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="109.22" y1="20.32" x2="109.22" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J24" gate="G$1" pin="1"/>
-<pinref part="J25" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL4.1" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL4.2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <wire x1="111.76" y1="20.32" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J24" gate="G$1" pin="2"/>
-<pinref part="J25" gate="G$1" pin="1"/>
+<pinref part="SDA/SCL4.1" gate="G$1" pin="2"/>
+<pinref part="SDA/SCL4.2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="PS" class="0">
 <segment>
 <wire x1="30.48" y1="-17.78" x2="66.04" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-17.78" x2="96.52" y2="-17.78" width="0.1524" layer="91"/>
@@ -814,15 +815,16 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="96.52" y1="-17.78" x2="96.52" y2="0" width="0.1524" layer="91"/>
 <junction x="96.52" y="-17.78"/>
 <wire x1="116.84" y1="-17.78" x2="116.84" y2="0" width="0.1524" layer="91"/>
-<pinref part="J9" gate="G$1" pin="1"/>
-<pinref part="J21" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="S3" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
-<pinref part="J27" gate="G$1" pin="1"/>
+<pinref part="S4" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="0" x2="121.92" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-17.78" x2="139.7" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="116.84" y="-17.78"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="MB1" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="-17.78" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -832,7 +834,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="30.48" y1="63.5" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="30.48" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J28" gate="G$1" pin="2"/>
+<pinref part="LEDS1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -844,7 +846,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="68.58" y1="63.5" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="35.56" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="J29" gate="G$1" pin="2"/>
+<pinref part="LEDS2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -858,7 +860,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="91.44" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="25.4" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="J30" gate="G$1" pin="2"/>
+<pinref part="LEDS3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -868,7 +870,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="116.84" y1="63.5" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="116.84" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J31" gate="G$1" pin="2"/>
+<pinref part="LEDS4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -877,7 +879,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <wire x1="43.18" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="71.12" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="J28" gate="G$1" pin="1"/>
+<pinref part="LEDS1" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="38.1" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -885,7 +887,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="73.66" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J29" gate="G$1" pin="1"/>
+<pinref part="LEDS2" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="27.94" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -893,7 +895,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <segment>
 <pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="129.54" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J31" gate="G$1" pin="1"/>
+<pinref part="LEDS4" gate="G$1" pin="1"/>
 <wire x1="127" y1="25.4" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="127" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="63.5" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
@@ -901,7 +903,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="J30" gate="G$1" pin="1"/>
+<pinref part="LEDS3" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="104.14" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
@@ -937,7 +939,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <approved hash="113,1,22.9801,5.47116,J8,,,,,"/>
 <approved hash="113,1,33.1401,5.47116,J9,,,,,"/>
 <approved hash="113,1,55.0503,37.7088,J10,,,,,"/>
-<approved hash="113,1,62.6703,35.1688,J11,,,,,"/>
+<approved hash="113,1,62.764,35.1688,J11,,,,,"/>
 <approved hash="113,1,59.2497,23.2512,J12,,,,,"/>
 <approved hash="113,1,55.0503,17.3888,J13,,,,,"/>
 <approved hash="113,1,59.2497,5.47116,J14,,,,,"/>
@@ -955,7 +957,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <approved hash="113,1,112.59,2.93116,J26,,,,,"/>
 <approved hash="113,1,125.29,2.93116,J27,,,,,"/>
 <approved hash="113,1,37.2703,37.7088,J28,,,,,"/>
-<approved hash="113,1,72.924,27.5488,J29,,,,,"/>
+<approved hash="113,1,72.8303,27.5488,J29,,,,,"/>
 <approved hash="113,1,98.2303,22.4688,J30,,,,,"/>
 <approved hash="113,1,123.63,25.0088,J31,,,,,"/>
 </errors>
