@@ -1,0 +1,11 @@
+To make sash%cluster%program.py run at boot, follow the instructions : -
+1. save sash%cluster%program.py at home folder.
+2. sudo nano /etc/rc.local
+3. Add commands to execute the python program, preferably using absolute referencing of the file location 
+   (sudo python /home/pi/sash%cluster%program.py &). Be sure to leave the line exit 0 at the end, then save the file and exit. 
+   In nano, to exit, type Ctrl-x, and then Y.
+
+NOTE :- 
+The Pi will run this program at bootup, and before other services are started. If you don’t include the ampersand and if your 
+program runs continuously, the Pi will not complete its boot process. The ampersand allows the command to run in a separate 
+process and continue booting with the main process running.
