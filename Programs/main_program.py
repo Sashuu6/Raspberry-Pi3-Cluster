@@ -1,8 +1,8 @@
 # Copyright (c) 2017 Adafruit Industries
 # Author: Sashwat
 # Created On: 23/05/2018
-# Revision: 1
-#
+# Revision: 2
+# Last Edited: 26/05/2018
 
 import time
 
@@ -72,8 +72,7 @@ while True:
     cmd = "df -h | awk '$NF==\"/\"{printf \"Disk: %d/%dGB %s\", $3,$2,$5}'"
     Disk = subprocess.check_output(cmd, shell = True )
 
-    # Write two lines of text.
-
+    # The next 4 lines of code will display IP.
     draw.text((x, top),       "IP: " + str(IP),  font=font, fill=255)
     draw.text((x, top+8),     str(CPU), font=font, fill=255)
     draw.text((x, top+16),    str(MemUsage),  font=font, fill=255)
