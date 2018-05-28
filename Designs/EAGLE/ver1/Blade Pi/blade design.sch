@@ -561,10 +561,6 @@ Source: www.kingbright.com</description>
 <part name="OLED2.2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-156" device=""/>
 <part name="OLED3.2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-156" device=""/>
 <part name="OLED4.2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA04-156" device=""/>
-<part name="LEDC1" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="LEDC2" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="LEDC3" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
-<part name="LEDC4" library="con-amp" library_urn="urn:adsk.eagle:library:127" deviceset="MTA02-156" device=""/>
 <part name="LED1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="LD260" package3d_urn="urn:adsk.eagle:package:13313/1"/>
 <part name="LED2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="LD260" package3d_urn="urn:adsk.eagle:package:13313/1"/>
 <part name="LED3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="LED_E" device="LD260" package3d_urn="urn:adsk.eagle:package:13313/1"/>
@@ -595,10 +591,6 @@ Source: www.kingbright.com</description>
 <instance part="OLED2.2" gate="G$3" x="10.16" y="22.86" rot="R180"/>
 <instance part="OLED3.2" gate="G$3" x="33.02" y="25.4" rot="R180"/>
 <instance part="OLED4.2" gate="G$3" x="55.88" y="25.4" rot="R180"/>
-<instance part="LEDC1" gate="G$1" x="-22.86" y="17.78"/>
-<instance part="LEDC2" gate="G$1" x="5.08" y="15.24"/>
-<instance part="LEDC3" gate="G$1" x="27.94" y="20.32"/>
-<instance part="LEDC4" gate="G$1" x="50.8" y="15.24"/>
 <instance part="LED1" gate="G$1" x="-20.32" y="10.16" rot="R270"/>
 <instance part="LED2" gate="G$1" x="7.62" y="7.62" rot="R270"/>
 <instance part="LED3" gate="G$1" x="30.48" y="12.7" rot="R270"/>
@@ -725,6 +717,11 @@ Source: www.kingbright.com</description>
 <pinref part="OLED1.1" gate="G$3" pin="1"/>
 <pinref part="OLED1.2" gate="G$3" pin="4"/>
 <wire x1="-17.78" y1="35.56" x2="-17.78" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="15.24" x2="-17.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="15.24" x2="-17.78" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-17.78" y="27.94"/>
 </segment>
 </net>
 <net name="VCC1" class="0">
@@ -732,6 +729,10 @@ Source: www.kingbright.com</description>
 <pinref part="OLED1.1" gate="G$3" pin="2"/>
 <pinref part="OLED1.2" gate="G$3" pin="3"/>
 <wire x1="-15.24" y1="35.56" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="-15.24" y1="10.16" x2="-17.78" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-15.24" y="27.94"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -753,6 +754,11 @@ Source: www.kingbright.com</description>
 <pinref part="OLED2.1" gate="G$3" pin="1"/>
 <pinref part="OLED2.2" gate="G$3" pin="4"/>
 <wire x1="2.54" y1="33.02" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="0" y1="7.62" x2="0" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="0" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
+<junction x="2.54" y="25.4"/>
 </segment>
 </net>
 <net name="VCC2" class="0">
@@ -760,6 +766,12 @@ Source: www.kingbright.com</description>
 <pinref part="OLED2.1" gate="G$3" pin="2"/>
 <pinref part="OLED2.2" gate="G$3" pin="3"/>
 <wire x1="5.08" y1="33.02" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="12.7" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="17.78" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<junction x="5.08" y="25.4"/>
 </segment>
 </net>
 <net name="SCL2" class="0">
@@ -781,6 +793,11 @@ Source: www.kingbright.com</description>
 <pinref part="OLED3.1" gate="G$3" pin="1"/>
 <pinref part="OLED3.2" gate="G$3" pin="4"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="25.4" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<junction x="25.4" y="27.94"/>
 </segment>
 </net>
 <net name="VCC3" class="0">
@@ -788,6 +805,12 @@ Source: www.kingbright.com</description>
 <pinref part="OLED3.1" gate="G$3" pin="2"/>
 <pinref part="OLED3.2" gate="G$3" pin="3"/>
 <wire x1="27.94" y1="35.56" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="35.56" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="12.7" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<junction x="27.94" y="27.94"/>
 </segment>
 </net>
 <net name="SCL3" class="0">
@@ -809,6 +832,11 @@ Source: www.kingbright.com</description>
 <pinref part="OLED4.1" gate="G$3" pin="1"/>
 <pinref part="OLED4.2" gate="G$3" pin="4"/>
 <wire x1="48.26" y1="33.02" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="7.62" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="7.62" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
+<junction x="48.26" y="27.94"/>
 </segment>
 </net>
 <net name="VCC4" class="0">
@@ -816,6 +844,12 @@ Source: www.kingbright.com</description>
 <pinref part="OLED4.1" gate="G$3" pin="2"/>
 <pinref part="OLED4.2" gate="G$3" pin="3"/>
 <wire x1="50.8" y1="33.02" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="58.42" y1="7.62" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="15.24" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
+<junction x="50.8" y="27.94"/>
 </segment>
 </net>
 <net name="SCL4" class="0">
@@ -830,77 +864,6 @@ Source: www.kingbright.com</description>
 <pinref part="OLED4.1" gate="G$3" pin="4"/>
 <pinref part="OLED4.2" gate="G$3" pin="1"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="-25.4" y1="10.16" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="LEDC1" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="15.24" x2="-22.86" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="LEDC1" gate="G$1" pin="2"/>
-<wire x1="-20.32" y1="15.24" x2="-15.24" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="15.24" x2="-15.24" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="-15.24" y1="10.16" x2="-17.78" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="0" y1="7.62" x2="0" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LEDC2" gate="G$1" pin="1"/>
-<wire x1="0" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="LEDC2" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="12.7" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="12.7" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="25.4" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="12.7" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="LEDC3" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="LEDC3" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="17.78" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="35.56" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="48.26" y1="7.62" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="7.62" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LEDC4" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="LEDC4" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="12.7" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="58.42" y1="7.62" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
