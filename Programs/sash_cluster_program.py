@@ -99,9 +99,9 @@ while True:
     disp.display()
     time.sleep(.1)
     
-    print("OLED is displaying...")
+    #print("OLED is displaying...")
     #For power off switch.
     if GPIO.input(4):
-        print("Performing Shitdown...")
+        #print("Performing Shitdown...")
         cmd = "sudo halt"
         subprocess.check_output(cmd, shell = True )
