@@ -1,8 +1,13 @@
-# Copyright (c) 2017 Adafruit Industries
+#	 ______________            ______ _____       ______________ ______
+# ___  __ )__  /_____ _________  /____(_)________  __ \_  __ \/__  /
+# __  __  |_  /_  __ `/  ___/_  //_/_  /__  ___/  / / /  / / /__  / 
+# _  /_/ /_  / / /_/ // /__ _  ,<  _  / _(__  )/ /_/ // /_/ / _  /  
+# /_____/ /_/  \__,_/ \___/ /_/|_| /_/  /____/ \____/ \____/  /_/   
+
 # Author: Sashwat
-# Created On: 23/05/2018
-# Revision: 2
-# Last Edited: 26/05/2018
+# Created On: 23 May 2018
+# Revision: 3
+# Last Edited: 25 August 2018
 
 import time
 import Adafruit_GPIO.SPI as SPI
